@@ -16,7 +16,7 @@ function exitProcess(code = 1) {
 
 async function checkVersion() {
   try {
-    const { versions } = await fetch('http://registry.npmjs.org/antd').then((res) => res.json());
+    const { versions } = await fetch('http://registry.npmjs.org/antd').then(res => res.json());
     if (version in versions) {
       console.log(chalk.yellow('😈 Current version already exists. Forget update package.json?'));
       console.log(chalk.cyan(' => Current:'), version);
@@ -35,7 +35,12 @@ async function checkBranch({ current }) {
     version.includes('-experimental.')
   ) {
     console.log(chalk.cyan('😃 Alpha version. Skip branch check.'));
-  } else if (current !== 'master' && current !== '4.0-prepare' && current !== '4.x-stable') {
+  } else if (
+    current !== 'master' &&
+    current !== '4.0-prepare' &&
+    current !== '4.x-stable' &&
+    current !== 'uniubi'
+  ) {
     console.log(chalk.yellow('🤔 You are not in the master branch!'));
     exitProcess();
   }
