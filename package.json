@@ -16,11 +16,11 @@
   ],
   "homepage": "https://ant.design",
   "bugs": {
-    "url": "https://github.com/UniUbi-FE/uniubi-design/issues"
+    "url": "https://github.com/ant-design/uniubi-design/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UniUbi-FE/uniubi-design"
+    "url": "https://github.com/ant-design/uniubi-design"
   },
   "license": "MIT",
   "contributors": [
