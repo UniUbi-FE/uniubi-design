@@ -307,7 +307,7 @@
     "react-dom": ">=16.9.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "http://npm.uniubi.com"
   },
   "size-limit": [
     {
