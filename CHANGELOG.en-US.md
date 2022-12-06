@@ -14,6 +14,13 @@ timeline: true
 - Major version release is not included in this schedule for breaking change and new features.
 
 ---
+## 100.24.14
+
+`2023-11-10`
+
+- 🐞 Fix Breadcrumb unexpected overlay deprecation warning message. [#43917](https://github.com/ant-design/ant-design/pull/44578) [@whalesink](https://github.com/whalesink)
+- 🐞 Fix Upload gif thumbnail not playing. [#44129](https://github.com/ant-design/ant-design/pull/44129) [@linxianxi](https://github.com/linxianxi)
+- 🐞 Fix ConfigProvider throws `rc-util/lib/utils/set` not existed. [#44630](https://github.com/ant-design/ant-design/pull/44630) [@varown](https://github.com/varown)
 
 ## 4.24.15
 

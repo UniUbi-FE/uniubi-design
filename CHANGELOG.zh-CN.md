@@ -15,12 +15,27 @@ timeline: true
 
 ---
 
+## 4.100.15
+
+`2023-15-5`
+
+- 🐞 修复 Radio 的 `disabled` 状态被 Form 的 `disabled` 覆盖的问题。[#44837](https://github.com/ant-design/ant-design/pull/44837) [@Yuiai01](https://github.com/Yuiai01)
+- 💄 修复 DatePicker 的 `disabled` 样式在 Form hover 场景下被覆盖的问题。[#44779](https://github.com/ant-design/ant-design/pull/44779) [@crazyair](https://github.com/crazyair)
+
 ## 4.24.15
 
 `2023-11-21`
 
 - 🐞 修复 Radio 的 `disabled` 状态被 Form 的 `disabled` 覆盖的问题。[#44837](https://github.com/ant-design/ant-design/pull/44837) [@Yuiai01](https://github.com/Yuiai01)
 - 💄 修复 DatePicker 的 `disabled` 样式在 Form hover 场景下被覆盖的问题。[#44779](https://github.com/ant-design/ant-design/pull/44779) [@crazyair](https://github.com/crazyair)
+
+## 100.24.14
+
+`2023-11-10`
+
+- 🐞 修复 Breadcrumb 使用 `menu` 属性时出现 `overlay` 废弃警告的问题。[#43917](https://github.com/ant-design/ant-design/pull/44578) [@whalesink](https://github.com/whalesink)
+- 🐞 修复 Upload gif 缩略图不会动的问题。[#44129](https://github.com/ant-design/ant-design/pull/44129) [@linxianxi](https://github.com/linxianxi)
+- 🐞 修复 ConfigProvider 抛出 `rc-util/lib/utils/set` 不存在的问题。[#44630](https://github.com/ant-design/ant-design/pull/44630) [@varown](https://github.com/varown)
 
 ## 4.24.14
 
